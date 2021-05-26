@@ -34,89 +34,40 @@
         <div>          
         <select name="age">
                 <option value="未回答">選択してしてください</option>
-<option value="16歳">16歳</option>
-<option value="17歳">17歳</option>
-<option value="18歳">18歳</option>
-<option value="19歳">19歳</option>
-<option value="20歳">20歳</option>
-<option value="21歳">21歳</option>
-<option value="22歳">22歳</option>
-<option value="23歳">23歳</option>
-<option value="24歳">24歳</option>
-<option value="25歳">25歳</option>
-<option value="26歳">26歳</option>
-<option value="27歳">27歳</option>
-<option value="28歳">28歳</option>
-<option value="29歳">29歳</option>
-<option value="30歳">30歳</option>
-<option value="31歳">31歳</option>
-<option value="32歳">32歳</option>
-<option value="33歳">33歳</option>
-<option value="34歳">34歳</option>
-<option value="35歳">35歳</option>
-<option value="36歳">36歳</option>
-<option value="37歳">37歳</option>
-<option value="38歳">38歳</option>
-<option value="39歳">39歳</option>
-<option value="40歳">40歳</option>
-<option value="41歳">41歳</option>
-<option value="42歳">42歳</option>
-<option value="43歳">43歳</option>
-<option value="44歳">44歳</option>
-<option value="45歳">45歳</option>
-<option value="46歳">46歳</option>
-<option value="47歳">47歳</option>
-<option value="48歳">48歳</option>
-<option value="49歳">49歳</option>
-<option value="50歳">50歳</option>
-<option value="51歳">51歳</option>
-<option value="52歳">52歳</option>
-<option value="53歳">53歳</option>
-<option value="54歳">54歳</option>
-<option value="55歳">55歳</option>
-<option value="56歳">56歳</option>
-<option value="57歳">57歳</option>
-<option value="58歳">58歳</option>
-<option value="59歳">59歳</option>
-<option value="60歳">60歳</option>
-<option value="61歳">61歳</option>
-<option value="62歳">62歳</option>
-<option value="63歳">63歳</option>
-<option value="64歳">64歳</option>
-<option value="65歳">65歳</option>
-<option value="66歳">66歳</option>
-<option value="67歳">67歳</option>
-<option value="68歳">68歳</option>
-<option value="69歳">69歳</option>
-<option value="70歳">70歳</option>
-<option value="71歳">71歳</option>
-<option value="72歳">72歳</option>
-<option value="73歳">73歳</option>
-<option value="74歳">74歳</option>
-<option value="75歳以上">75歳以上</option>
+<option value="10代">10代</option>
+<option value="20代">20代</option>
+<option value="30代">30代</option>
+<option value="40代">40代以上</option>
         </select></div>      
 
         
-        <p class="mt-3">◆ 保有資格を教えて下さい</p>
+        <p class="mt-3">◆ 関心があることを教えて下さい</p>
         <div> 
-        <INPUT TYPE="radio" NAME="shikaku" Value="資格なし"> 資格なし<BR>            
-            <INPUT TYPE="radio" NAME="shikaku" Value="社会福祉士・介護福祉士"> 社会福祉士・介護福祉士<BR>            
-            <INPUT TYPE="radio" NAME="shikaku" Value="実務者研修(ヘルパー1級)・介護職員基礎研修"> 実務者研修(ヘルパー1級)・介護職員基礎研修<BR> 
-            <INPUT TYPE="radio" NAME="shikaku" Value="初任者研修(ヘルパー2級)"> 初任者研修(ヘルパー2級)<BR>
+        <INPUT TYPE="radio" NAME="kanshin" Value="資格なし"> 特になし<BR>            
+            <INPUT TYPE="radio" NAME="kanshin" Value="ゴルフ・ゴルフ用品"> ゴルフ・ゴルフ用品<BR>            
+            <INPUT TYPE="radio" NAME="kanshin" Value="スポーツ・スポーツ用品"> スポーツ・スポーツ用品<BR> 
+            <INPUT TYPE="radio" NAME="kanshin" Value="接客・お客様対応"> 接客・お客様対応<BR>
         </div>
         
         <p class="mt-3">◆ ご希望の連絡方法を教えて下さい</p>
         <div> 
-            <INPUT TYPE="radio" NAME="method" Value="電話 希望"> 電話希望<BR>            
-            <INPUT TYPE="radio" NAME="method" Value="LINEメッセージ希望"> LINEメッセージ希望<BR> 
-            <INPUT TYPE="radio" NAME="method" Value="どちらでもいい"> どちらでもいい<BR>
+            <INPUT TYPE="radio" NAME="how" Value="電話 希望"> 電話希望<BR>            
+            <INPUT TYPE="radio" NAME="how" Value="LINEメッセージ希望"> LINEメッセージ希望<BR> 
+            <INPUT TYPE="radio" NAME="how" Value="どちらでもいい"> どちらでもいい<BR>
         </div>
         
+        <p class="mt-3">◆ ご希望の面談方法を教えて下さい</p>
+        <div> 
+            <INPUT TYPE="radio" NAME="where" Value="店舗での面談"> 店舗での面談<BR>            
+            <INPUT TYPE="radio" NAME="where" Value="WEB面談"> WEB面談<BR> 
+            <INPUT TYPE="radio" NAME="where" Value="どちらでもいい"> どちらでもいい<BR>
+        </div>
+                
         <p class="mt-3">◆ 面談希望日があれば、選択してください（任意）</p>
         <div>
             <input class="form-control w-100 mt-1" name="date" maxlength="10" type="date">
         </div>
-
+                
         <input type="submit" class="mt-4 btn btn-primary" value="送信" onclick="send()">
                 
     </form>
