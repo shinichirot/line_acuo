@@ -10,7 +10,7 @@ $(function () {
         var name = $('textarea[name="name"]').val();
         var adress = $('textarea[name="adress"]').val();
         var tel = $('textarea[name="tel"]').val();
-        var age = $('textarea[name="age"]').val();
+        var age = $('input[name="age"]').val();
         var kanshin = $('input[name="kanshin"]').val();
         var how = $('input[name="how"]').val();
         var where = $('input[name="where"]').val();
