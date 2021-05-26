@@ -16,7 +16,7 @@ $(function () {
         var where = $('input[name="where"]').val();
         var date = $('input[name="date"]').val();
        
-        var msg = `◆回答ありがとうございます\n職種:${key}\n名前：${name}\n郵便番号：${adress}\n電話番号：${tel}\n年代：${age}\n関心：${kanshin}\n\n連絡方法：${how}\n面談場所：${where}面談希望：${date}`;
+        var msg = `◆回答ありがとうございます\n職種:${key}\n名前：${name}\n郵便番号：${adress}\n電話番号：${tel}\n年代：${age}\n関心：${kanshin}\n連絡方法：${how}\n面談場所：${where}面談希望：${date}`;
         sendText(msg);
 
         return false;
