@@ -11,12 +11,12 @@ $(function () {
         var adress = $('textarea[name="adress"]').val();
         var tel = $('textarea[name="tel"]').val();
         var age = $('textarea[name="age"]').val();
-        var shikaku = $('input[name="shikaku"]').val();
-        var method = $('input[name="method"]').val();
-        
+        var kanshin = $('input[name="kanshin"]').val();
+        var how = $('input[name="how"]').val();
+        var where = $('input[name="where"]').val();
         var date = $('input[name="date"]').val();
        
-        var msg = `◆回答ありがとうございます\n職種:${key}\n名前：${name}\n郵便番号：${adress}\n電話番号：${tel}\n年代：${age}\n資格：${shikaku}\n面談希望：${date}\n連絡方法：${method}`;
+        var msg = `◆回答ありがとうございます\n職種:${key}\n名前：${name}\n郵便番号：${adress}\n電話番号：${tel}\n年代：${age}\n関心：${kanshin}\n\n連絡方法：${how}\n面談場所：${where}面談希望：${date}`;
         sendText(msg);
 
         return false;
