@@ -11,7 +11,7 @@ $(function () {
         var adress = $('textarea[name="adress"]').val();
         var tel = $('textarea[name="tel"]').val();
         var age = $('select[name="age"]').val();
-        var kanshin = $('input[name="kanshin"]').val();
+        var kanshin = $("input:[name='kanshin']cheacked").val();
         var how = $('input[name="how"]').val();
         var where = $('input[name="where"]').val();
         var date = $('input[name="date"]').val();
